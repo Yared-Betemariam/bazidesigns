@@ -1,7 +1,13 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import { FaAddressCard, FaLocationArrow } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { MdMail, MdPhone } from "react-icons/md";
+
+export const metadata: Metadata = {
+  title: "Contact Us",
+  description: "Contact us for business purposes or if you have any questions.",
+};
 
 const ContactPage = () => {
   const phone = ["+251984740012", "+251912047359", "+251906746898"];

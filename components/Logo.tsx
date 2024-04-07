@@ -13,7 +13,7 @@ const Logo: React.FC<Props> = ({ w }) => {
         alt="logo"
         width={1280}
         height={960}
-        className="w-[5.725rem] object-cover"
+        className="w-[4.725rem] sm:w-[5.725rem] object-cover"
       />
     </Link>
   );

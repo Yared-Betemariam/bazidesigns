@@ -1,5 +1,12 @@
 import { beautyFas, coffeeDes, mohDes, works } from "@/lib/utils";
+import { Metadata } from "next";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "Our Past Works",
+  description:
+    "Take a look at the projects and services we provided for our past clients",
+};
 
 const WorksPage = () => {
   return (

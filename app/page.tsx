@@ -98,17 +98,17 @@ export default function Home() {
   });
   return (
     <main className="flex flex-col flex-1 gap-32 pt-16">
-      <section className="wrapper flex items-center gap-16 md:gap-12 flex-col-reverse md:flex-row">
-        <div className="flex flex-col">
+      <section className="wrapper flex items-center gap-16 md:gap-12 flex-col md:flex-row">
+        <div className="flex flex-col text-center md:text-start">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold">
             Best Video Editors and Graphics Designers
           </h1>
-          <div className="bg-primary/80 h-2 w-32 my-2 rounded-md"></div>
+          <div className="bg-primary/80 h-2 w-32 my-2 rounded-md mx-auto sm:mr-auto md:ml-0"></div>
 
           <p className="text-xl sm:text-2xl lg:text-3xl opacity-70">
             we help business grow by providing best graphics designs and videos
           </p>
-          <div className="my-6 flex items-center gap-4 flex-col sm:flex-row">
+          <div className="my-6 flex items-center gap-4 flex-col sm:flex-row mx-auto sm:mr-auto md:ml-0">
             <Link href="/about">
               <Button
                 size={"lg"}
@@ -133,7 +133,7 @@ export default function Home() {
           alt="hero"
           width={792}
           height={857}
-          className="w-[60%] md:w-[40%] drp shadow-primary"
+          className="w-[75%] xs:w-[60%] md:w-[40%] drp shadow-primary"
         />
       </section>
       <p className="text-base sm:text-lg text-center opacity-70 max-w-xs sm:max-w-xl mx-auto">
