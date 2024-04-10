@@ -208,7 +208,7 @@ export default function Home() {
             </h2>
             <div className="bg-background h-2 w-20 rounded-md"></div>
             <p className="sm:text-xl opacity-70">
-              What to Know More? Let us know
+              Want to Know More? Let us know
             </p>
             <Link href={"/contact"}>
               <Button
